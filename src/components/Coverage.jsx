@@ -30,7 +30,7 @@ export default function Coverage() {
 
   return (
     <section className="text-center  ">
-      <div className="bg-[url('/worldmap.jpeg')] bg-center bg-cover px-6 py-16"> 
+      <div className="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTau5h4rrXcidu7O9dLKy_ssGEXJTxvtlHbCCBosbGaMHFbQp7plfiKiVuSrMyBD8RTkds&usqp=CAU')] bg-center bg-cover px-6 py-16"> 
         <p className="inline-block border border-white bg-white px-4 py-2 rounded-full text-s font-medium text-gray-800 mb-4 -mt-3">The world is your oyster.</p>
         <h2 className="text-6xl font-extralight font-serif mb-5 mt-5 ">
           Our coverage? <br /> Glad you asked.

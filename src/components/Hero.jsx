@@ -1,3 +1,5 @@
+import stock from "../assets/stock.jpg"
+
 export default function Hero() {
   return (
     <section className="text-center px-6 py-16">
@@ -26,7 +28,7 @@ export default function Hero() {
   <div className="relative inline-block mx-auto">
     <div className="absolute inset-0 h-full w-full bg-gradient-to-b from-orange-300 via-pink-300 to-green-500 rounded-lg"></div>
     <img
-      src="/stock.jpg"
+      src={stock}
       alt="Phone mockups"
       className="w-[650px] h-[450px] opacity-90 block rounded-lg relative"
     />

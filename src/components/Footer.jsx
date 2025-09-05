@@ -1,10 +1,12 @@
+import colouredPopcorn from "../assets/colouredCinema.png"
+
 export default function Footer() {
     return (
       <footer className="bg-black text-white px-8 py-12">
         <div>
           <div className="grid md:grid-cols-4 gap-3">
           <div >
-            <img src="/colouredCinema.png" className="size-8" />
+            <img src={colouredPopcorn} className="size-8" />
           </div>
             <div>
                 <h4 className="font-bold mb-3">The Good</h4>
