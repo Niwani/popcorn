@@ -26,7 +26,7 @@ export default function SignUp({ className = "" }) {
 
       <button
         onClick={handleSubmit}
-        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-6 py-2 rounded-full hover:bg-sky-700 transition"
+        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-6 py-2 rounded-full hover:bg-pink-700 transition cursor-pointer"
       >
         Sign up
       </button>

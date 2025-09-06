@@ -10,14 +10,14 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="flex justify-between px-6 py-4 bg-white font-serif">
+    <nav className="flex justify-between px-7 py-4 bg-white font-serif">
       <div className="flex items-center space-x-4 ml-20">
         <NavLink to="/" className="flex items-center gap-2">
           <img src={cinema} alt="Logo" className="size-8" />
           <span className="font-bold text-lg font-serif">Popcorn</span>
         </NavLink>
 
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 ml-10">
           {links.map((link) => (
             <li key={link.name}>
               <NavLink
@@ -38,7 +38,7 @@ export default function Navbar() {
       </div>
 
       {/* CTA Button */}
-      <button className="bg-black text-white px-5 py-3 rounded-full mr-20 hover:bg-sky-700">
+      <button className="bg-black text-white px-5 py-3 rounded-full mr-20 hover:bg-pink-700 cursor-pointer fill">
         Sign up
       </button>
     </nav>
