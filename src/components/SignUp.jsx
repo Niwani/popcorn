@@ -4,18 +4,18 @@ export default function SignUp({ className = "" }) {
   const [email, setEmail] = useState("");
 
   const handleSubmit = () => {
-    const emailTest = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    if (emailTest.test(email)) {
+    if (emailRegex.test(email)) {
       alert(`🎉 Thank you for signing up, ${email}!`);
-      setEmail(""); 
+      setEmail(""); // reset input
     } else {
       alert("⚠️ Please enter a valid email address.");
     }
   };
 
   return (
-    <div className={`relative max-w-md ${className}`}>
+    <div className={`relative max-w-md ${className} z-20`}>
       <input
         type="email"
         value={email}
@@ -26,7 +26,7 @@ export default function SignUp({ className = "" }) {
 
       <button
         onClick={handleSubmit}
-        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-6 py-2 rounded-full hover:bg-pink-700 transition cursor-pointer"
+        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-6 py-2 rounded-full whitespace-nowrap hover:bg-sky-700 transition"
       >
         Sign up
       </button>

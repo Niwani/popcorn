@@ -14,7 +14,10 @@ export default function Hero() {
         Enjoy unlimited global service for $69/mo. <br />
         No roaming fees, or headaches.
       </p>
-      <SignUp className="justify-center inline-block bg-red-50" />
+      <div className="relative z-10">
+        <SignUp className="justify-center inline-block" />
+      </div>
+      
       
 
       <div className="flex justify-center mt-10">
