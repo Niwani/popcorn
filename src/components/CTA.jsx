@@ -1,4 +1,5 @@
 import phone from "../assets/phone.png";
+import SignUp from "./SignUp";
 
 export default function CTA() {
   return (
@@ -45,16 +46,7 @@ export default function CTA() {
             <p className="text-7xl  mb-6">$69</p>
             <p className="-mt-5">per month</p>
           </div>
-          <div className="relative max-w-md mx-auto mt-20 justify-self-end mr-1">
-            <input
-              type="email"
-              placeholder="Enter your e-mail"
-              className="bg-white text-black w-full border rounded-full px-4 py-4 pr-32 outline-none"
-            />
-            <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-6 py-2 rounded-full">
-              Sign up
-            </button>
-          </div>
+          <SignUp className="relative max-w-md mx-auto mt-20 justify-self-end mr-1" />
         </div>
       </div>
     </section>

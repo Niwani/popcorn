@@ -1,26 +1,49 @@
-import { Link } from "react-router-dom";
-
-import cinema from "../assets/cinema.png"
+import { NavLink } from "react-router-dom";
+import cinema from "../assets/cinema.png";
 
 export default function Navbar() {
-    return (
-      <nav className="flex justify-between px-6 py-4 bg-white font-serif ">
-        <div className="flex items-center space-x-4 ml-20">
-            <div className="flex">
-              <Link className="flex" to="/">
-                <img src={cinema} className="size-8" />
-                <div className="font-bold text-lg flex font-serif">Popcorn</div>
-              </Link>
-            </div>
-            <ul className="flex gap-6 text-gray-700 list-none space-x-2 mr-100">
-            <li className="underline"><Link to="/">Home</Link></li>
-            <li className="hover:underline"><Link to="/manifesto">Manifesto</Link></li>
-            <li className="hover:underline"><Link to="/research">Research</Link></li>
-            <li className="hover:underline"><Link to="/careers">Careers</Link></li>
-            </ul>
-        </div>
-        <button className="bg-black text-white px-4 py-2 rounded-full mr-29 hover:bg-sky-700">Sign up</button>
-      </nav>
-    );
-  }
+  const links = [
+    { name: "Home", path: "/" },
+    { name: "Manifesto", path: "/manifesto" },
+    { name: "Research", path: "/research" },
+    { name: "Careers", path: "/careers" },
+  ];
+
+  return (
+    <nav className="flex justify-between px-6 py-4 bg-white font-serif">
+      <div className="flex items-center space-x-4 ml-20">
+        <NavLink to="/" className="flex items-center gap-2">
+          <img src={cinema} alt="Logo" className="size-8" />
+          <span className="font-bold text-lg font-serif">Popcorn</span>
+        </NavLink>
+
+        <ul className="flex gap-6">
+          {links.map((link) => (
+            <li key={link.name}>
+              <NavLink
+                to={link.path}
+                className={({ isActive }) =>
+                  `cursor-pointer transition ${
+                    isActive
+                      ? "text-blue-600 font-semibold underline underline-offset-4"
+                      : "text-gray-600 hover:text-gray-900"
+                  }`
+                }
+              >
+                {link.name}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* CTA Button */}
+      <button className="bg-black text-white px-5 py-3 rounded-full mr-20 hover:bg-sky-700">
+        Sign up
+      </button>
+    </nav>
+  );
+}
+
   
+

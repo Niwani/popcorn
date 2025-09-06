@@ -1,4 +1,5 @@
 import stock from "../assets/stock.jpg"
+import SignUp from "./SignUp";
 
 export default function Hero() {
   return (
@@ -13,16 +14,8 @@ export default function Hero() {
         Enjoy unlimited global service for $69/mo. <br />
         No roaming fees, or headaches.
       </p>
-      <div className="justify-center gap-2 border px-4 py-2 rounded-full inline-block">
-        <input
-          type="email"
-          placeholder="Enter your e-mail"
-          className=""
-        />
-        <button className="bg-black text-white px-6 py-2 rounded-full">
-          Sign up
-        </button>
-      </div>
+      <SignUp className="justify-center inline-block bg-red-50" />
+      
 
       <div className="flex justify-center mt-10">
   <div className="relative inline-block mx-auto">
