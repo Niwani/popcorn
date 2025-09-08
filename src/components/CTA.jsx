@@ -10,9 +10,9 @@ export default function CTA() {
           Get connected <br /> in 72 seconds
         </h2>
         <div>
-          <ol className=" list-inside w-100 text-gray-700 space-y-2">
+          <ol className=" list-inside w-80 text-gray-700 space-y-2">
             <li className="bg-sky-50 p-4 rounded-xl shadow flex">
-              <p className="flex rounded-full w-9 h-3 p-3 bg-white ">1</p>
+              <p className="flex rounded-full w-9 h-9 p-3 bg-white ">1</p>
               <p className="mt-2 ml-4">Sign up</p>
             </li>
             <li className="bg-sky-50 p-4 rounded-xl shadow flex">
@@ -24,8 +24,8 @@ export default function CTA() {
               <p className="mt-2 ml-4">You're online!</p>
             </li>
           </ol>
-          <div className="justify-self-end mr-35 -mt-4 -rotate-10">
-            <p className="inline-block px-2 py-1 rounded-xl bg-gradient-to-r  from-white via-green-50 to-pink-50 ">Yes it's that easy ✓</p>
+          <div className="justify-self-end mr-25 -mt-4 -rotate-10">
+            <p className="inline-block px-2 py-1 rounded-xl bg-gradient-to-r  from-white via-green-50 to-pink-50 ">Yes, it's that easy ✓</p>
           </div>
         </div>
        
