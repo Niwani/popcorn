@@ -8,7 +8,7 @@ export default function SignUp({ className = "" }) {
 
     if (emailRegex.test(email)) {
       alert(`🎉 Thank you for signing up, ${email}!`);
-      setEmail(""); // reset input
+      setEmail("");
     } else {
       alert("⚠️ Please enter a valid email address.");
     }
