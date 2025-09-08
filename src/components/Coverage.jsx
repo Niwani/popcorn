@@ -19,7 +19,7 @@ export default function Coverage() {
     { name: "Mexico", flag: mexico },
     { name: "Japan", flag: japan },
     { name: "Brazil", flag: brazil },
-    { name: "150+ more", flag: null}, // no image
+    { name: "150+ more", flag: null},
     { name: "Canada", flag: canada },
     { name: "UK", flag: UK },
     { name: "Colombia", flag: colombia },
@@ -29,8 +29,8 @@ export default function Coverage() {
   const rotations = ["-rotate-10", "rotate-5", "-rotate-10", "rotate-5", "-rotate-10", "rotate-5"];
 
   return (
-    <section className="text-center  ">
-      <div className="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTau5h4rrXcidu7O9dLKy_ssGEXJTxvtlHbCCBosbGaMHFbQp7plfiKiVuSrMyBD8RTkds&usqp=CAU')] bg-center bg-cover px-6 py-16"> 
+    <section className="text-center py-12 px-10 ">
+      <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKicZfCYSc_PK4uqziEHbhQLTGrW191B5Cw&s')] bg-center bg-cover px-6 py-16"> 
         <p className="inline-block border border-white bg-white px-4 py-2 rounded-full text-s font-medium text-gray-800 mb-4 -mt-3">The world is your oyster.</p>
         <h2 className="text-6xl font-extralight font-serif mb-5 mt-5 ">
           Our coverage? <br /> Glad you asked.

@@ -1,4 +1,4 @@
-import stock from "../assets/stock.jpg"
+import twoPhones from "../assets/two-phones.png"
 import SignUp from "./SignUp";
 
 export default function Hero() {
@@ -22,11 +22,11 @@ export default function Hero() {
 
       <div className="flex justify-center mt-10">
   <div className="relative inline-block mx-auto">
-    <div className="absolute inset-0 h-full w-full bg-gradient-to-b from-orange-300 via-pink-300 to-green-500 rounded-lg"></div>
+    <div className="absolute inset-0 h-full w-full rounded-lg"></div>
     <img
-      src={stock}
+      src={twoPhones}
       alt="Phone mockups"
-      className="w-[650px] h-[450px] opacity-90 block rounded-lg relative"
+      className="w-[500px] h-[600px] opacity-90 block rounded-lg relative"
     />
   </div>
 </div>

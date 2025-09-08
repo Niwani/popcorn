@@ -23,15 +23,14 @@ export default function CTA() {
               <p className="flex rounded-full w-9 h-9 p-3 bg-white">3</p>
               <p className="mt-2 ml-4">You're online!</p>
             </li>
+            <div className="justify-self-end -mr-5 -mt-5 -rotate-10">
+              <p className="inline-block px-2 py-1 rounded-xl bg-gradient-to-r  from-white via-green-50 to-pink-50 ">Yes, it's that easy ✓</p>
+            </div>
           </ol>
-          <div className="justify-self-end mr-25 -mt-4 -rotate-10">
-            <p className="inline-block px-2 py-1 rounded-xl bg-gradient-to-r  from-white via-green-50 to-pink-50 ">Yes, it's that easy ✓</p>
-          </div>
         </div>
-       
       </div>
 
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hidden md:block">
         <img
           src={phone}
           alt="Phone"

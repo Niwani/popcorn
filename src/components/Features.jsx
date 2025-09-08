@@ -10,11 +10,10 @@ export default function Features() {
   ];
 
   return (
-    <section className="grid md:grid-cols-3 gap-3 px-6 py-12 text-center">
+    <section className="grid md:grid-cols-3 gap-3 px-10 py-10 text-center">
       {features.map((f) => (
         <div key={f.id} className="flex flex-col items-center space-y-2">
           
-          {/* Background wrapper */}
           <div className="flex items-center justify-center w-14 h-14 bg-gray-100 rounded-full shadow-sm">
             <img src={f.image} alt={f.text} className="w-7 h-7" />
           </div>
