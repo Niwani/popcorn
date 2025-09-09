@@ -10,7 +10,7 @@ export default function Features() {
   ];
 
   return (
-    <section className="grid md:grid-cols-3 gap-3 px-10 py-10 text-center">
+    <section className="grid md:grid-cols-3 gap-3 px-10 py-10 text-center -mt-30">
       {features.map((f) => (
         <div key={f.id} className="flex flex-col items-center space-y-2">
           

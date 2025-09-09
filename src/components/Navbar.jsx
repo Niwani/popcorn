@@ -57,8 +57,11 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      {open && (
-        <div className="md:hidden mt-4 space-y-4 px-4">
+      <div
+        className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out 
+        ${open ? "max-h-96 opacity-100 translate-y-0" : "max-h-0 opacity-0 -translate-y-4"}`}
+      >
+        <div className="mt-4 space-y-4 px-4">
           {links.map((link) => (
             <Link
               key={link.name}
@@ -77,7 +80,8 @@ export default function Navbar() {
             Sign up
           </button>
         </div>
-      )}
+      </div>
+
     </nav>
   );
 }

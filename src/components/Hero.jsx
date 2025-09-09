@@ -17,19 +17,17 @@ export default function Hero() {
       <div className="relative z-10">
         <SignUp className="justify-center inline-block" />
       </div>
-      
-      
-
+    
       <div className="flex justify-center mt-10">
-  <div className="relative inline-block mx-auto">
-    <div className="absolute inset-0 h-full w-full rounded-lg"></div>
-    <img
-      src={twoPhones}
-      alt="Phone mockups"
-      className="w-[500px] h-[600px] opacity-90 block rounded-lg relative"
-    />
-  </div>
-</div>
+        <div className="relative inline-block mx-auto">
+          <div className="absolute inset-0 h-full w-full rounded-lg"></div>
+          <img
+            src={twoPhones}
+            alt="Phone mockups"
+            className="w-[500px] h-[600px] opacity-90 block rounded-lg relative"
+          />
+        </div>
+      </div>
 
     </section>
   );
