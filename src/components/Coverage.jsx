@@ -32,7 +32,7 @@ export default function Coverage() {
     <section className="text-center py-12 px-10 ">
       <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKicZfCYSc_PK4uqziEHbhQLTGrW191B5Cw&s')] bg-center bg-cover px-6 py-16"> 
         <p className="inline-block border border-white bg-white px-4 py-2 rounded-full text-s font-medium text-gray-800 mb-4 -mt-3">The world is your oyster.</p>
-        <h2 className="text-6xl font-extralight font-serif mb-5 mt-5 ">
+        <h2 className="text-6xl font-extralight mb-5 mt-5 ">
           Our coverage? <br /> Glad you asked.
         </h2>
         <p className="text-gray-600 mb-8">

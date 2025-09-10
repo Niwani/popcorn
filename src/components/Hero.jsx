@@ -4,13 +4,13 @@ import SignUp from "./SignUp";
 export default function Hero() {
   return (
     <section className="text-center px-6 py-16">
-      <p className="bg-gradient-to-r from-green-50 to-pink-50 inline-block px-4 py-2 rounded-full mb-4 text-sm font-serif">
+      <p className="bg-gradient-to-r from-green-50 to-pink-50 inline-block px-4 py-2 rounded-full mb-4 text-sm">
         Hey! We launched our Alpha!
       </p>
       <h1 className="text-4xl md:text-5xl font-medium mb-4">
         One global plan. <br /> No hassle.
       </h1>
-      <p className="text-gray-600 mb-6 font-serif">
+      <p className="text-gray-600 mb-6">
         Enjoy unlimited global service for $69/mo. <br />
         No roaming fees, or headaches.
       </p>

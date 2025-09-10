@@ -12,6 +12,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.6",
+    "@fontsource/playfair-display": "^5.2.6",
+    "@fontsource/poppins": "^5.2.6",
     "@tailwindcss/vite": "^4.1.12",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",

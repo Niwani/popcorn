@@ -15,12 +15,12 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="px-4 py-4 bg-white font-serif">
+    <nav className="px-4 py-4 bg-white">
       <div className="flex justify-between items-center max-w-[1200px] mx-auto">
         {/* Left side: Logo */}
         <Link className="flex items-center space-x-2" to="/">
           <img src={cinema} className="size-8" alt="Popcorn logo" />
-          <div className="font-bold text-lg font-serif">Popcorn</div>
+          <div className="font-bold text-lg">Popcorn</div>
         </Link>
 
         {/* Desktop links */}

@@ -9,7 +9,7 @@ import Manifesto from "./components/pages/Manifesto.jsx";
 
 export default function App() {
   return (
-    <div className="font-sans bg-white text-gray-900">
+    <div className="font-playfair bg-white text-gray-900">
       <Navbar />
       <div>
         <Routes>

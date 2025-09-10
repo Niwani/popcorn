@@ -41,7 +41,7 @@ export default function CTA() {
 
         <div className="text-end bg-black text-white p-8 rounded-2xl shadow-md w-full md:w-1/2 h-auto relative z-0">
           <div className="mt-10">
-            <h3 className="text-3xl font-semibold mb-4 font-sans">
+            <h3 className="text-3xl font-semibold mb-4">
               One plan, <br /> one price.
             </h3>
             <div>
