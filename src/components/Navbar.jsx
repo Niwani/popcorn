@@ -32,7 +32,7 @@ export default function Navbar() {
                 className={`cursor-pointer transition 
                   ${
                     location.pathname === link.path
-                      ? "text-blue-600 font-semibold underline underline-offset-4"
+                      ? "text-green-400 font-semibold underline underline-offset-4"
                       : "text-gray-600 hover:text-gray-900"
                   }`}
               >
