@@ -14,6 +14,10 @@ export default function Navbar() {
     { name: "Careers", path: "/careers" },
   ];
 
+  const handleSignup = () => {
+    
+  }
+
   return (
     <nav className="px-4 py-4 bg-white">
       <div className="flex justify-between items-center max-w-[1200px] mx-auto">
@@ -76,7 +80,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <button className="w-full bg-black text-white px-5 py-3 rounded-full hover:bg-sky-700">
+          <button onClick={handleSignup} className="w-full bg-black text-white px-5 py-3 rounded-full hover:bg-sky-700">
             Sign up
           </button>
         </div>
